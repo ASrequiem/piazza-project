@@ -1,6 +1,6 @@
 const Post = require('../models/Post');
 
-// Create a post
+// This will help create a post
 exports.createPost = async (req, res) => {
     try {
         const { title, topic, body, expirationTime } = req.body;
